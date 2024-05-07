@@ -12,10 +12,7 @@ async def measure_runtime() -> float:
     """
     measure_runtime should measure the total runtime and return it.
     function execute async_comprehension 4 times.
-    Arguments:
-        no arguments
-    Return:
-        nothing
+    has no arguments and returns nothing.
     """
     t_start = time.perf_counter()
     task = [async_comprehension() for i in range(4)]
